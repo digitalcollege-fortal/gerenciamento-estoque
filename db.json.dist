@@ -1,0 +1,39 @@
+{
+    "filiais": [
+        {
+            "id": 1,
+            "nome": "Ale importados"
+        },
+        {
+            "id": 2,
+            "nome": "Ale variedades"
+        }
+    ],
+
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Informática",
+            "descricao": "Produtos de informática",
+            "foto": "https://asadsa.com/asdasd.png"
+        },
+        {
+            "id": 2,
+            "nome": "Equipamentos de som",
+            "descricao": "equipamentos de som em geral",
+            "foto": "https://asadsa.com/asdasd.png"
+        },
+        {
+            "id": 3,
+            "nome": "Bebidas",
+            "descricao": "bebidas em geral",
+            "foto": "https://asadsa.com/asdasd.png"
+        },
+        {
+            "id": 4,
+            "nome": "Móveis",
+            "descricao": "moveis em geral",
+            "foto": "https://asadsa.com/asdasd.png"
+        }
+    ]
+}
