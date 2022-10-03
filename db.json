@@ -17,15 +17,9 @@
       "foto": "https://asadsa.com/asdasd.png"
     },
     {
-      "id": 2,
-      "nome": "Equipamentos de som",
-      "descricao": "equipamentos de som em geral",
-      "foto": "https://asadsa.com/asdasd.png"
-    },
-    {
-      "id": 3,
-      "nome": "Bebidas",
-      "descricao": "bebidas em geral",
+      "id": 4,
+      "nome": "Móveis",
+      "descricao": "moveis em geral",
       "foto": "https://asadsa.com/asdasd.png"
     }
   ]

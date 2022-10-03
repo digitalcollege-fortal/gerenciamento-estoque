@@ -20,7 +20,7 @@ function findAddress() {
     
 }
 
-function addBranch() {
+export default function addBranch() {
     return `
         <h1>Nova Filial</h1>
 
