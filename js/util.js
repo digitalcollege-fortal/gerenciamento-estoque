@@ -1,9 +1,9 @@
-async function removeCategory (id) {
-    if (false === confirm('Tem certeza')) {
-        return;
-    }
+function abrirModal(id) {
+    input_excluir.value = id;
+}
 
-    await fetch ('http://localhost:8000/categorias/'+id, {
+async function removeCategory () {
+    await fetch ('http://localhost:8000/categorias/'+ input_excluir.value, {
         method: 'DELETE',
     });
 
@@ -12,4 +12,26 @@ async function removeCategory (id) {
     btn.dispatchEvent(
         new Event('click')
     );
+}
+
+async function salvarCategoria() {
+    event.preventDefault();
+    
+    let dados = {
+        nome: add_cat_nome.value,
+        descricao: add_cat_desc.value,
+        foto: '',
+    };
+
+    await fetch('http://localhost:8000/categorias', {
+        method: 'POST',
+        body: JSON.stringify(dados),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
+
+    document.querySelector('[data-content="categories"]').dispatchEvent(
+        new Event('click')
+    )
 }

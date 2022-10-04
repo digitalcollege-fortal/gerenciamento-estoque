@@ -11,16 +11,22 @@
   ],
   "categorias": [
     {
-      "id": 1,
-      "nome": "Informática",
-      "descricao": "Produtos de informática",
-      "foto": "https://asadsa.com/asdasd.png"
+      "nome": "Moveis",
+      "descricao": "Teste",
+      "foto": "",
+      "id": 1
     },
     {
-      "id": 4,
-      "nome": "Móveis",
-      "descricao": "moveis em geral",
-      "foto": "https://asadsa.com/asdasd.png"
+      "nome": "Eletrodomesticos",
+      "descricao": "asdasd",
+      "foto": "",
+      "id": 2
+    },
+    {
+      "nome": "Teste",
+      "descricao": "teste 2",
+      "foto": "",
+      "id": 3
     }
   ]
 }
